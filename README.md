@@ -1,11 +1,9 @@
-# 遗传算法
-利用遗传算法优化企业收益最大
+# Genetic Algorithm
 
-某企业的单位（生产厂、研究所、用户、技术支持单位等）均产生有各种质量信息，但是这些信息目前还是信息孤岛，未产生信息共享效益。现在要建立信息共享平台，从N个企业中邀请一部分加入平台成为会员。企业加入平台产生加入成本，但也能从其它企业共享的信息中获得收益。当收益率大于某给定值时，企业有意愿加入，反之则无。平台组织方可以对会员收费或补贴，鼓励更多成员加入，其目标是平台利益最大化。建模假定：
-1. 企业加入成本为固定的，包括花费的人工、会议、时间等：
-2. 企业 i 从企业 j 获得的预期收益 可以 为正数、负数、或零，且为单向；
-3. 贡献共享价值的企业，要不惜花钱（补贴），邀请其加入；
-4. 获益共享价值的企业，可要求其支付一定费用；
-5. 企业是理性的，当收益率大于其利润率，即会加入（但可以不邀请）。
-
-
+Problem Hypothesis:
+The units of an enterprise (production plants, research institutes, users, technical support units, etc.) all produce various quality information, but this information is currently an information silo, and no information sharing benefits have been generated. Now we want to establish an information sharing platform and invite some of the N enterprises to join the platform as members. The enterprises join the platform to incur joining costs, but they can also gain benefits from the information shared by other enterprises. When the rate of return is greater than a given value, enterprises are willing to join, and vice versa. The platform organizer can charge or subsidize members to encourage more members to join, with the goal of maximizing the benefits of the platform. Modeling assumptions:
+1. the cost for enterprises to join is fixed, including the labor, meetings, time spent, etc.:
+2. the expected benefits that firm i receives from firm j can be positive, negative, or zero, and are unidirectional;
+3. enterprises that contribute shared value are invited to join at no cost (subsidies);
+4. firms that benefit from shared value may be required to pay a fee;
+5. firms are rational and will join when the rate of return is greater than their profitability (but can be disinvited).
